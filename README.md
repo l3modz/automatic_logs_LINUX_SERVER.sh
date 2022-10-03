@@ -10,7 +10,7 @@ root@ServerDesktopLinux # wget https://github.com/l3modz/automatic_logs_LINUX_SE
 
 # How to Add to cronjob
 root@ServerDesktopLinux # crontab -e
-*/30 * * * * ./bash.script/automatic_logs_LINUX_SERVER.sh
+<br />*/30 * * * * ./bash.script/automatic_logs_LINUX_SERVER.sh
 <br />: 
 <br />w q
 <br />change to excecutable file<br />root@ServerDesktopLinux # chown root.root automatic_logs_LINUX_SERVER.sh<br />
