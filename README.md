@@ -12,5 +12,5 @@ root@ServerDesktopLinux # unzip automatic_logs_LINUX_SERVER.sh.zip
 # How to Add to cronjob
 root@ServerDesktopLinux # crontab -e
 */30 * * * * ./bash.script/automatic_logs_LINUX_SERVER.sh
-:wq
+* : w q
 
