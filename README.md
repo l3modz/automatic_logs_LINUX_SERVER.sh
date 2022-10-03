@@ -13,7 +13,7 @@ root@ServerDesktopLinux # crontab -e
 <br />*/30 * * * * ./bash.script/automatic_logs_LINUX_SERVER.sh
 <br />: 
 <br />w q
-<br />change to excecutable file<br />root@ServerDesktopLinux # chown root.root automatic_logs_LINUX_SERVER.sh<br />
+<br />change to excecutable file<br />root@ServerDesktopLinux # chown root.root bash.script/automatic_logs_LINUX_SERVER.sh<br />
 *<br />
 Open your Firefox browser https://127.0.0.1/logmadeinalone/
 
